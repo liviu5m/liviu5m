@@ -200,7 +200,7 @@ Ongoing   * competition National Olympiad — top 10 math / top 6 informatics na
 ------------------------------------------------------------------------
 ```
 
-📫 **[motpanliviuwork@gmail.com](mailto:motpanliviuwork@gmail.com)** · 🧠 **[LeetCode](https://leetcode.com/u/motpanliviu)** · 🌐 **[Portfolio](https://yourportfolio.com)**
+📫 **[motpanliviuwork@gmail.com](mailto:motpanliviuwork@gmail.com)** · 🧠 **[LeetCode](https://leetcode.com/u/motpanliviu)** · 🌐 **[Portfolio](https://liviu5m.vercel.app/)**
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,100:16161e&height=3&section=footer" width="100%"/>
 
