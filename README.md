@@ -1,87 +1,207 @@
 <div align="center">
 
-# hi, i'm liviu 👋
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:16161e,100:1a1b26&height=120&section=header&text=liviu5m&fontSize=46&fontColor=9ece6a&fontAlignY=55&desc=full-stack%20developer%20%C2%B7%20competitive%20programmer&descAlignY=80&descColor=7dcfff&fontFamily=JetBrains%20Mono" width="100%"/>
 
-### full-stack developer · competitive programmer · high school student
+<a href="https://github.com/liviu5m">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2800&pause=900&color=9ECE6A&center=true&vCenter=true&width=650&lines=coding+since+age+7;fully+complex+projects+by+10;structured+self-study+of+languages+%26+paradigms+since+11;650%2B+DSA+problems+solved;top+10+nationally+in+math+%C2%B7+top+6+in+informatics" alt="Typing SVG" />
+</a>
 
-coding since age 7 — building fully complex, production-style projects by 10 — and studying
-programming languages, paradigms, and mental models in a structured, self-directed way since 11.
+</div>
 
-[![Portfolio](https://img.shields.io/badge/portfolio-yourportfolio.com-9ece6a?style=flat-square)](https://yourportfolio.com)
-[![LeetCode](https://img.shields.io/badge/LeetCode-650%2B_solved-ff9e64?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/u/motpanliviu)
-[![Email](https://img.shields.io/badge/email-motpanliviuwork%40gmail.com-7dcfff?style=flat-square)](mailto:motpanliviuwork@gmail.com)
+<br/>
+
+```
+██╗     ██╗██╗   ██╗██╗██╗   ██╗██████╗ ███╗   ███╗
+██║     ██║██║   ██║██║██║   ██║██╔══██╗████╗ ████║
+██║     ██║██║   ██║██║██║   ██║██████╔╝██╔████╔██║
+██║     ██║╚██╗ ██╔╝██║██║   ██║██╔══██╗██║╚██╔╝██║
+███████╗██║ ╚████╔╝ ██║╚██████╔╝██║  ██║██║ ╚═╝ ██║
+╚══════╝╚═╝  ╚═══╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝
+```
+
+<div align="center">
+
+`[1] home.md`&nbsp;&nbsp;`[2] projects/`&nbsp;&nbsp;`[3] experience.log`&nbsp;&nbsp;`[4] config.lua`
+<sub>press <code>j</code>/<code>k</code> to scroll this file, or just... scroll</sub>
 
 </div>
 
 ---
 
-## about
+### `[1] home.md`
 
-High school student in Nisporeni, Moldova, with a competitive-programming background in national
-Mathematics and Informatics Olympiads. I build production-style, microservice-based full-stack
-systems (Spring Boot, React/Next.js) and low-level systems software in C. School comes easily,
-which frees up time to go deep on languages, systems design, and the math behind them.
+```lua
+-- ~/.config/nvim/whoami.lua
+local dev = {
+  name        = "Moțpan Liviu",
+  role        = "high school student · full-stack developer",
+  location    = "Nisporeni, Republic of Moldova",
+  started     = 7,    -- age, first lines of code
+  went_complex= 10,   -- age, first fully complex / production-style builds
+  self_study  = 11,   -- age, structured study of languages & paradigms begins
+  fast_learner= true, -- school is effortless, time reinvested into deep study
+  focus       = { "microservices", "systems programming", "competitive programming" },
+}
 
-- 🏆 3× Honorable Mention (4th place) and 3× 3rd place, National Olympiad of Moldova — Math & Informatics
-- 📈 Consistent national ranking: **Top 10 in Mathematics**, **Top 6 in Informatics**
-- 🧩 **650+** DSA problems solved on LeetCode
-- 🎓 Liceul Teoretic "Boris Cazacu" — 9.87/10 (10th grade), 9.95/10 (11th grade) — expected graduation 2027
-- 🗣️ Romanian (native) · English (B2, Cambridge-certified) · French (conversational)
+return dev
+```
 
-## stack
+I build production-style, microservice-based full-stack systems (Spring Boot, React/Next.js)
+and low-level systems software in C — with a competitive-programming background from national
+Mathematics & Informatics Olympiads underneath all of it.
+
+<table>
+<tr><td>🏆</td><td><b>3× Honorable Mention</b> (4th place) &amp; <b>3× 3rd place</b> — National Olympiad of Moldova, Math &amp; Informatics</td></tr>
+<tr><td>📈</td><td>Consistent national ranking: <b>Top 10</b> in Mathematics, <b>Top 6</b> in Informatics</td></tr>
+<tr><td>🧩</td><td><b>650+</b> DSA problems solved on LeetCode</td></tr>
+<tr><td>🎓</td><td>Liceul Teoretic "Boris Cazacu" — 9.87/10 (10th) · 9.95/10 (11th) — graduating 2027</td></tr>
+<tr><td>🗣️</td><td>Romanian (native) · English (B2, Cambridge) · French (conversational)</td></tr>
+</table>
+
+---
+
+### `[2] projects/`
+
+<details open>
+<summary><b>FoodRoute</b> — full-stack food ordering platform (microservices)</summary>
+<br/>
+
+```diff
++ React 19 · TypeScript · Tailwind · Spring Boot · MongoDB · Stripe · Cloudinary
++ microservices backend: auth, product, order, cart, review, user — Spring Boot + MongoDB
++ Clerk + Google OAuth auth, role-based access separating customer / admin flows
++ Stripe checkout, Cloudinary image pipelines, admin dashboard w/ sales analytics
++ React 19 frontend, TanStack Query + Zustand for real-time cart & inventory
+```
+🔗 [food-route.vercel.app](https://food-route.vercel.app/)
+</details>
+
+<details>
+<summary><b>Apointy</b> — microservice appointment scheduling platform</summary>
+<br/>
+
+```diff
++ Spring Boot · React · TypeScript · Eureka · RabbitMQ · PostgreSQL · Docker Compose
++ Eureka service registry + API Gateway (JWT verification, Google OAuth2 login)
++ user-service: registration, account sync, email verification, password reset via RabbitMQ
++ booking-service + notification-service: scheduling, availability queues, reminders
+```
+🔗 [apointy.vercel.app](https://apointy.vercel.app/)
+</details>
+
+<details>
+<summary><b>Evolve</b> — fitness & wellness tracking platform</summary>
+<br/>
+
+```diff
++ TypeScript · React · Java · Spring Boot
++ workout planning, meal tracking, progress monitoring, grocery management
++ decoupled TS frontend + Java/Spring Boot backend, same patterns as FoodRoute/Apointy
++ data model built around recurring domains for trend & history views
+```
+🔗 [evolveapp.vercel.app](https://evolveapp.vercel.app/)
+</details>
+
+<details>
+<summary><b>Hive</b> — full-stack social platform</summary>
+<br/>
+
+```diff
++ TypeScript · Java · Spring Boot · JWT · Google OAuth2
++ posts, real-time chat, social graph, customizable profile pages
++ JWT sessions, OTP email verification with resend/expiry logic
++ auth-guarded routing separating onboarding from protected routes
+```
+🔗 [gethive.vercel.app](https://gethive.vercel.app/)
+</details>
+
+<details>
+<summary><b>kern</b> — custom Unix-like shell</summary>
+<br/>
+
+```diff
++ C · POSIX · GNU Readline
++ POSIX-style interactive shell from scratch: prompt, built-ins, PATH-based execution
++ process management: pipelines, command chaining (&&), I/O redirection, background jobs
++ GNU Readline integration: persistent history, TAB completion
+```
+🔗 [github.com/liviu5m/kern](https://github.com/liviu5m/kern)
+</details>
+
+---
+
+### `[3] experience.log`
+
+```
+Age  7    * origin      first lines of code
+Age 10    * milestone   first fully complex, production-style builds
+Age 11    * growth      structured self-study: languages, paradigms, mental models
+Ongoing   * competition National Olympiad — top 10 math / top 6 informatics nationally
+650+      * practice    DSA problems solved, LeetCode
+10th grd  * education   Liceul Teoretic "Boris Cazacu" — 9.87/10
+11th grd  * education   Liceul Teoretic "Boris Cazacu" — 9.95/10 · grad. 2027
+```
+
+**certifications** — Cambridge English (B2 First) · Certiport: JavaScript, Databases, Network Security
+
+---
+
+### `[4] config.lua` — stack
 
 <div align="center">
 
-**Languages**
-![JavaScript](https://img.shields.io/badge/-JavaScript-282c34?style=flat-square&logo=javascript)
-![TypeScript](https://img.shields.io/badge/-TypeScript-282c34?style=flat-square&logo=typescript)
-![Python](https://img.shields.io/badge/-Python-282c34?style=flat-square&logo=python)
-![Java](https://img.shields.io/badge/-Java-282c34?style=flat-square&logo=openjdk)
-![C](https://img.shields.io/badge/-C-282c34?style=flat-square&logo=c)
-![C++](https://img.shields.io/badge/-C%2B%2B-282c34?style=flat-square&logo=cplusplus)
-![PHP](https://img.shields.io/badge/-PHP-282c34?style=flat-square&logo=php)
-![SQL](https://img.shields.io/badge/-SQL-282c34?style=flat-square&logo=postgresql)
+![JavaScript](https://img.shields.io/badge/-JavaScript-1a1b26?style=for-the-badge&logo=javascript&logoColor=f7768e)
+![TypeScript](https://img.shields.io/badge/-TypeScript-1a1b26?style=for-the-badge&logo=typescript&logoColor=7dcfff)
+![Python](https://img.shields.io/badge/-Python-1a1b26?style=for-the-badge&logo=python&logoColor=9ece6a)
+![Java](https://img.shields.io/badge/-Java-1a1b26?style=for-the-badge&logo=openjdk&logoColor=ff9e64)
+![C](https://img.shields.io/badge/-C-1a1b26?style=for-the-badge&logo=c&logoColor=bb9af7)
+![C++](https://img.shields.io/badge/-C%2B%2B-1a1b26?style=for-the-badge&logo=cplusplus&logoColor=7dcfff)
+![PHP](https://img.shields.io/badge/-PHP-1a1b26?style=for-the-badge&logo=php&logoColor=9ece6a)
+![SQL](https://img.shields.io/badge/-SQL-1a1b26?style=for-the-badge&logo=postgresql&logoColor=ff9e64)
 
-**Frameworks**
-![React](https://img.shields.io/badge/-React-282c34?style=flat-square&logo=react)
-![Next.js](https://img.shields.io/badge/-Next.js-282c34?style=flat-square&logo=nextdotjs)
-![Tailwind](https://img.shields.io/badge/-Tailwind_CSS-282c34?style=flat-square&logo=tailwindcss)
-![Spring Boot](https://img.shields.io/badge/-Spring_Boot-282c34?style=flat-square&logo=springboot)
-![FastAPI](https://img.shields.io/badge/-FastAPI-282c34?style=flat-square&logo=fastapi)
-![Laravel](https://img.shields.io/badge/-Laravel-282c34?style=flat-square&logo=laravel)
+![React](https://img.shields.io/badge/-React-1a1b26?style=for-the-badge&logo=react&logoColor=7dcfff)
+![Next.js](https://img.shields.io/badge/-Next.js-1a1b26?style=for-the-badge&logo=nextdotjs&logoColor=f7f7f7)
+![Tailwind](https://img.shields.io/badge/-Tailwind-1a1b26?style=for-the-badge&logo=tailwindcss&logoColor=7dcfff)
+![Spring Boot](https://img.shields.io/badge/-Spring_Boot-1a1b26?style=for-the-badge&logo=springboot&logoColor=9ece6a)
+![FastAPI](https://img.shields.io/badge/-FastAPI-1a1b26?style=for-the-badge&logo=fastapi&logoColor=9ece6a)
+![Laravel](https://img.shields.io/badge/-Laravel-1a1b26?style=for-the-badge&logo=laravel&logoColor=f7768e)
 
-**Systems & Data**
-![Docker](https://img.shields.io/badge/-Docker-282c34?style=flat-square&logo=docker)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-282c34?style=flat-square&logo=postgresql)
-![MongoDB](https://img.shields.io/badge/-MongoDB-282c34?style=flat-square&logo=mongodb)
-![MySQL](https://img.shields.io/badge/-MySQL-282c34?style=flat-square&logo=mysql)
-![RabbitMQ](https://img.shields.io/badge/-RabbitMQ-282c34?style=flat-square&logo=rabbitmq)
+![Docker](https://img.shields.io/badge/-Docker-1a1b26?style=for-the-badge&logo=docker&logoColor=7dcfff)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-1a1b26?style=for-the-badge&logo=postgresql&logoColor=7dcfff)
+![MongoDB](https://img.shields.io/badge/-MongoDB-1a1b26?style=for-the-badge&logo=mongodb&logoColor=9ece6a)
+![MySQL](https://img.shields.io/badge/-MySQL-1a1b26?style=for-the-badge&logo=mysql&logoColor=ff9e64)
+![RabbitMQ](https://img.shields.io/badge/-RabbitMQ-1a1b26?style=for-the-badge&logo=rabbitmq&logoColor=ff9e64)
 
-**Tools**
-![Git](https://img.shields.io/badge/-Git-282c34?style=flat-square&logo=git)
-![Linux](https://img.shields.io/badge/-Linux-282c34?style=flat-square&logo=linux)
-![Neovim](https://img.shields.io/badge/-Neovim-282c34?style=flat-square&logo=neovim)
-![Figma](https://img.shields.io/badge/-Figma-282c34?style=flat-square&logo=figma)
+![Git](https://img.shields.io/badge/-Git-1a1b26?style=for-the-badge&logo=git&logoColor=f7768e)
+![Linux](https://img.shields.io/badge/-Linux-1a1b26?style=for-the-badge&logo=linux&logoColor=f7f7f7)
+![Neovim](https://img.shields.io/badge/-Neovim-1a1b26?style=for-the-badge&logo=neovim&logoColor=9ece6a)
+![Figma](https://img.shields.io/badge/-Figma-1a1b26?style=for-the-badge&logo=figma&logoColor=bb9af7)
 
 </div>
-
-## selected projects
-
-| Project | Stack | Description |
-|---|---|---|
-| **[FoodRoute](https://food-route.vercel.app/)** | React 19 · Spring Boot · MongoDB · Stripe | Microservices food-ordering platform — auth, product, order, cart, review & user services, Stripe checkout, admin analytics dashboard |
-| **[Apointy](https://apointy.vercel.app/)** | Spring Boot · React · Eureka · RabbitMQ | Microservice appointment scheduling — Eureka registry, JWT gateway, booking + notification services with automated reminders |
-| **[Evolve](https://evolveapp.vercel.app/)** | TypeScript · React · Spring Boot | Fitness & wellness tracker — workout planning, meal tracking, progress history views |
-| **[Hive](https://gethive.vercel.app/)** | TypeScript · Java · Spring Boot | Full-stack social platform — posts, real-time chat, social graph, JWT + OAuth auth |
-| **[kern](https://github.com/liviu5m/kern)** | C · POSIX · GNU Readline | Custom Unix-like shell — pipelines, job control, I/O redirection, Readline history/completion |
-
-## certifications
-
-- Cambridge English Qualification — B2 First
-- Certiport: JavaScript · Databases · Network Security
 
 ---
 
 <div align="center">
-<sub>📫 reach me at <a href="mailto:motpanliviuwork@gmail.com">motpanliviuwork@gmail.com</a></sub>
+
+<img src="https://github-readme-stats.vercel.app/api?username=liviu5m&show_icons=true&theme=tokyonight&hide_border=true&bg_color=16161e&title_color=9ece6a&icon_color=7dcfff&text_color=c0caf5" width="49%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=liviu5m&theme=tokyonight&hide_border=true&background=16161e&ring=9ece6a&fire=ff9e64&currStreakLabel=c0caf5" width="49%"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=liviu5m&layout=compact&theme=tokyonight&hide_border=true&bg_color=16161e&title_color=9ece6a&text_color=c0caf5" width="49%"/>
+
+</div>
+
+---
+
+<div align="center">
+
+```
+-- STATUS LINE --------------------------------------------------------
+ NORMAL │ liviu5m │  main │ UTF-8 │ 100%
+------------------------------------------------------------------------
+```
+
+📫 **[motpanliviuwork@gmail.com](mailto:motpanliviuwork@gmail.com)** · 🧠 **[LeetCode](https://leetcode.com/u/motpanliviu)** · 🌐 **[Portfolio](https://yourportfolio.com)**
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b26,100:16161e&height=3&section=footer" width="100%"/>
+
 </div>
