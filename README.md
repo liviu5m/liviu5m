@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:16161e,100:1a1b26&height=120&section=header&text=liviu5m&fontSize=46&fontColor=9ece6a&fontAlignY=55&desc=full-stack%20developer%20%C2%B7%20competitive%20programmer&descAlignY=80&descColor=7dcfff&fontFamily=JetBrains%20Mono" width="100%"/>
 
 <a href="https://github.com/liviu5m">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2800&pause=900&color=9ECE6A&center=true&vCenter=true&width=650&fast-learner;fully+complex+projects+by+10;structured+self-study+of+languages+%26+paradigms+since+14;650%2B+DSA+problems+solved;top+10+nationally+in+math+%C2%B7+top+6+in+informatics" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2800&pause=900&color=9ECE6A&center=true&vCenter=true&width=650&lines=fast-learner;fully+complex+projects+by+10;structured+self-study+of+languages+%26+paradigms+since+14;650%2B+DSA+problems+solved;top+10+nationally+in+math+%C2%B7+top+6+in+informatics" alt="Typing SVG" />
 </a>
 
 </div>
