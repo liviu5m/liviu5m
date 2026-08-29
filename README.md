@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:16161e,100:1a1b26&height=120&section=header&text=liviu5m&fontSize=46&fontColor=9ece6a&fontAlignY=55&desc=full-stack%20developer%20%C2%B7%20competitive%20programmer&descAlignY=80&descColor=7dcfff&fontFamily=JetBrains%20Mono" width="100%"/>
 
 <a href="https://github.com/liviu5m">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2800&pause=900&color=9ECE6A&center=true&vCenter=true&width=650&lines=coding+since+age+7;fully+complex+projects+by+10;structured+self-study+of+languages+%26+paradigms+since+11;650%2B+DSA+problems+solved;top+10+nationally+in+math+%C2%B7+top+6+in+informatics" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2800&pause=900&color=9ECE6A&center=true&vCenter=true&width=650&fast-learner;fully+complex+projects+by+10;structured+self-study+of+languages+%26+paradigms+since+14;650%2B+DSA+problems+solved;top+10+nationally+in+math+%C2%B7+top+6+in+informatics" alt="Typing SVG" />
 </a>
 
 </div>
@@ -36,9 +36,7 @@ local dev = {
   name        = "Moțpan Liviu",
   role        = "high school student · full-stack developer",
   location    = "Nisporeni, Republic of Moldova",
-  started     = 10,    -- age, first lines of code
-  went_complex= 10,   -- age, first fully complex / production-style builds
-  self_study  = 11,   -- age, structured study of languages & paradigms begins
+  self_study  = 14,   -- age, structured study of languages & paradigms begins
   fast_learner= true, -- school is effortless, time reinvested into deep study
   focus       = { "microservices", "systems programming", "competitive programming" },
 }
@@ -133,9 +131,7 @@ Mathematics & Informatics Olympiads underneath all of it.
 ### `[3] experience.log`
 
 ```
-Age  7    * origin      first lines of code
-Age 10    * milestone   first fully complex, production-style builds
-Age 11    * growth      structured self-study: languages, paradigms, mental models
+Age 14    * growth      structured self-study: languages, paradigms, mental models
 Ongoing   * competition National Olympiad — top 10 math / top 6 informatics nationally
 650+      * practice    DSA problems solved, LeetCode
 10th grd  * education   Liceul Teoretic "Boris Cazacu" — 9.87/10
